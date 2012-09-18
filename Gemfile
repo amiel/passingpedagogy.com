@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+# gem 'rails', '3.2.8'
+gem 'actionpack'
+gem 'railties'
+gem 'tzinfo'
 
 group :assets do
   gem 'coffee-rails', '~> 3.2.1'
@@ -27,14 +30,14 @@ group :development do
   gem 'heroku'
 end
 
-# group :test do
-#   gem 'rspec-rails', '~> 2.9'
-#   gem 'guard'
-#   gem 'guard-rspec'
-#   gem 'guard-bundler'
-#   # For guard
-#   gem 'rb-fsevent', require: false
+group :test do
+  gem 'rspec-rails', '~> 2.9'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-bundler'
+  # For guard
+  gem 'rb-fsevent', require: false
 
-#   gem 'term-ansicolor'
-# end
+  gem 'term-ansicolor'
+end
 
