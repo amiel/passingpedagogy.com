@@ -13,11 +13,11 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 
-  # gem 'sass-rails'
-  # gem 'compass-rails'
 end
 
 gem 'jquery-rails'
+gem 'sass-rails'
+gem 'compass-rails'
 gem 'zurb-foundation'
 
 gem 'thin'
@@ -29,6 +29,7 @@ end
 group :development do
   gem 'powder'
   gem 'heroku'
+  gem 'quiet_assets'
 end
 
 group :test do
