@@ -12,3 +12,8 @@
 //
 //= require jquery_ujs
 //= require foundation
+
+
+jQuery(document).ready(function() {
+  $(document).foundationTabs();
+});
