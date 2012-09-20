@@ -1,0 +1,25 @@
+#sx
+
+#cameraMoveReset
+#cameraSetPos (-60,420,300)
+#cameraSetPoi (0,150,-50)
+
+#objectKind 1
+
+#objectColor 1 (0,1,0)
+#objectColor 2 (1,0,0)
+#objectColor 3 (1,1,0)
+
+
+#jugglerColor 1 (0,0,0)
+#jugglerColor 2 (0.2, 0.2, 0.2)
+
+#jugglerPosition 1 (0,0,-120) (0,0,120)
+#jugglerPosition 2 (0,0,120) (0,0,-120)
+
+#D -
+#jugglerDelay 2 0.5
+
+<
+  0       2   0   3.5r1   2  |
+   3.5r1x   2   0       2   0 >
