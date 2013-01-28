@@ -7,7 +7,15 @@
 </head>
 <body>
   <%= render 'header' %>
-  <%= yield %>
+
+  <div class="row">
+    <div class="nine columns push-three">
+      <ul class="tabs-content">
+        <%= yield %>
+      </ul>
+    </div>
+    <%= render 'nav' %>
+  </div>
   <%= render 'footer' %>
   <%= render 'javascripts' %>
 </body>
