@@ -22,6 +22,8 @@ gem 'zurb-foundation'
 
 gem 'thin'
 
+gem 'turbolinks'
+
 group :production do
   # gem 'pg'
 end

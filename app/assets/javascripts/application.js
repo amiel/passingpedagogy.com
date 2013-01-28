@@ -13,8 +13,4 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
-//= require tabs
-
-jQuery(document).ready(function() {
-  $(document).tabs();
-});
+//= require turbolinks
