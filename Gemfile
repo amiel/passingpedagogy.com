@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
 # gem 'rails', '3.2.8'
 gem 'actionpack'
 gem 'railties'
@@ -40,7 +42,7 @@ group :test do
   gem 'guard-rspec'
   gem 'guard-bundler'
   # For guard
-  gem 'rb-fsevent', require: false
+  gem 'rb-fsevent', :require => false
 
   gem 'term-ansicolor'
 end
