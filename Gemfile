@@ -24,6 +24,7 @@ gem 'zurb-foundation'
 gem 'thin'
 
 gem 'turbolinks'
+gem 'google-analytics-turbolinks'
 
 group :production do
   gem 'rails_12factor'
