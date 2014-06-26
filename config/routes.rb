@@ -4,6 +4,8 @@ PassingPedagogy::Application.routes.draw do
   get 'exercise_2', to: 'pages#exercise_2'
   get 'exercise_3', to: 'pages#exercise_3'
   get 'thanks',     to: 'pages#thanks'
+  get 'about',      to: 'pages#about'
+  get 'resources',  to: 'pages#resources'
 
   root to: 'pages#index'
 end
