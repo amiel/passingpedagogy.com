@@ -27,6 +27,21 @@ url: "http://passingpedagogy.com" # the base hostname & protocol for your site, 
 twitter_username: 
 github_username: 
 
+navigation:
+  - title: What is this?
+    path: /
+  - title: In general
+    path: /in_general
+  - title: Exercise 1
+    path: /exercise_1
+  - title: Exercise 2
+    path: /exercise_2
+  - title: Exercise 3
+    path: /exercise_3
+
+
+
+
 # Build settings
 # theme: minima
 
